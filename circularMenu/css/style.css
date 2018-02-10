@@ -1,0 +1,64 @@
+html,body{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#header{
+    height: 150px;
+    width: 100%;
+}
+
+#logoTop{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    display: block;
+}
+
+#container{
+    height: 80%;
+    width: 90%;
+    max-width: 800px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.row{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .button{
+     margin: 0 0 0 0;
+     height: 95%;
+     width: 49%;
+     align-self: flex-start;
+     border-radius: 10%;
+     border: black solid 3px;
+     margin: 5px;
+     display:flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ #logoCentral{
+     position: absolute;
+     border: 5px solid black;
+     border-radius: 50%;
+     width: 120px;
+     height: 120px;;
+     top: 50%;
+     left: 50%;
+     transform: translateX(-50%);
+ }
+
+ .text{
+     color: black;
+     font-family: Arial, Helvetica, sans-serif;
+     margin: auto;
+     display: block;
+ }
