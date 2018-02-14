@@ -31,23 +31,17 @@ body{
 }
 
 .row{
-    height: 50%;
+    height: 25%;
     width: 100%;
     display: flex;
 }
-.col{
-    height: 100%;
-    width: 50%;
-    margin: 0;
-    padding: 0;
-}
 
-.col-bg{
+.row-bg{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.col-icon{
+.row-icon{
     display: flex;
     flex-direction: column;
     align-items: center;
