@@ -1,0 +1,94 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+#mainContainer{
+    width: 100%;
+    height: 100%;
+}
+
+#header{
+    height: 10%;
+    width: 100%;
+    background-color: #1e3c30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#content{
+    height: 80%;
+    width: 100%;
+    background-color: #214f35;
+    /*background-color: #287241;*/
+}
+
+.row{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+.col{
+    height: 100%;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.col-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-img{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+}
+.bTitle{
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 80%;
+    text-align: center;
+}
+.icon{
+    height: 25%
+}
+.iconTR{
+    align-self: flex-end;
+}
+.iconBL{
+    align-self: flex-start;
+    margin-bottom: 0px;
+}
+.iconTitle{
+    font-size: 25px;
+}
+#footer{
+    height: 10%;
+    width: 100%;
+    background-color: #1e3c30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
