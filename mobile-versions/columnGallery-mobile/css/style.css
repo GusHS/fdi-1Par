@@ -42,21 +42,21 @@ body{
 
 #container{
     padding-top: 10%;
+    padding-bottom: 10%;
     width: 100%;
-    height: 78%;
+    height: 100%;
     display: flex;
 }
 
 .col{
-    width: 33.33%;
+    width: 33.2%;
     height: 100%;
-    margin: 5px;
     flex-direction: column;
 }
 
 .sm-rectangle{
     height: 24%;
-    margin-bottom: 8px;
+    border: black 1px solid;
     width: 100%;
     background-color: seagreen;
     display: flex;
@@ -69,8 +69,8 @@ body{
 .lg-rectangle{
     height: 50%;
     width: 100%;
-    margin-bottom: 8px;
     background-color: peru;
+    border: black 1px solid;
     display: flex;
     justify-content: center;
     align-items: center;
